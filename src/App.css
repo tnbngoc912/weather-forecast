@@ -1,6 +1,36 @@
-.App {
-  text-align: center;
+
+
+/* Reset css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+* {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+html,
+body {
+  min-height: 100% !important;
+  height: 100%;
+  font-size: 16px;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+
+.App {
+  min-height: 100vh;
+}
+
 
 .App-logo {
   height: 40vmin;
